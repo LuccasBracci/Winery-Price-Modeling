@@ -3,10 +3,10 @@
 The business problem we are trying to solve is to predict the price of a wine based on its features, such as the grape variety, region, winery, etc. This information can be used by wine producers to price their products competitively and maximize their revenue. The stakeholders in this problem are the wine producers and retailers.
 
 ## Source of Data
-The data used for this project was obtained from the Kaggle dataset "Spanish Wine Quality Dataset" (https://www.kaggle.com/datasets/fedesoriano/spanish-wine-quality-dataset). This dataset contains over 7500 different types of red wines from Spain with 11 features.
+The data used for this project was obtained from the Kaggle dataset "Spanish Wine Quality Dataset" (https://www.kaggle.com/datasets/fedesoriano/spanish-wine-quality-dataset). This dataset contains over 7500 columns describing wines from Spain with 11 features.
 
 ## Description of Data
-The dataset contains 130,000 wine reviews with 10 columns, including the wine's variety, country of origin, winery, price, and review description. There are no missing values in the dataset. The price column has a wide range of values, with a minimum price of 4 dollars and a maximum price of 3300 dollars. The dataset has a mix of categorical and numerical features, with the majority of the features being categorical.
+This dataset contains 
 
 ## Analytical Insights
 ![image](https://user-images.githubusercontent.com/93495868/233252969-ef5f9aa0-cf00-4bde-8445-9172f3ae7513.png)
