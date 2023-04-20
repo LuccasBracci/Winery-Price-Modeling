@@ -11,10 +11,11 @@ This dataset contains
 ## Analytical Insights
 ![image](https://user-images.githubusercontent.com/93495868/233252969-ef5f9aa0-cf00-4bde-8445-9172f3ae7513.png)
 
-
+# This graph displays the price distribution of different types of wines with wine ratings. Notably, Higher priced wines tend to have better ratings. 
 
 ![image](https://user-images.githubusercontent.com/93495868/233253161-d6db34d0-94fc-44c0-bf81-2dd217ae1aca.png)
 
+# The region Bierzo on average has a 
 
 The most common wine varieties in the dataset are Chardonnay, Pinot Noir, Cabernet Sauvignon, Red Blend, and Bordeaux-style Red Blend. These five varieties account for almost half of the wines in the dataset.
 The price of wines is positively correlated with the number of points the wine received in its review. This indicates that higher-quality wines tend to be more expensive.
