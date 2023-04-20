@@ -27,8 +27,7 @@ The price of wines is positively correlated with the ratings the wine received i
 | R^2 Score               | 0.77     |
 | Explained Variance Score| 0.77     |
 
-For our best model, we will use mean squared error (MSE) as the evaluation metric. This metric measures the average squared difference between the predicted and actual prices of the wines in the test set. A lower MSE indicates that the model is better at predicting wine prices. This model
-
+For our best model, we will use mean squared error (MSE) as the evaluation metric. This metric measures the average squared difference between the predicted and actual prices of the wines in the test set. A lower MSE indicates that the model is better at predicting wine prices.
 ## Model Performance
 Our model is able to predict the price of a wine with an MSE of $140. This means that, on average, our model's predictions are off by 140 dollars from the actual wine prices. This level of accuracy can be useful for wine producers and retailers to price their products competitively and maximize their revenue when investing in higher selling wine and wineries. 
 
