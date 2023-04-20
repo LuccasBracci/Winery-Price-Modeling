@@ -21,6 +21,11 @@ The most Polular wine varieties in the dataset are Ribera Del Duero Red, Priorat
 The price of wines is positively correlated with the ratings the wine received in its review. This indicates that higher-quality wines tend to be more expensive.
 
 # Metrics for Best Model
+| Metrics | Score |
+| --- | --- |
+| Mean Squared Error      | 19787.45 |
+| R^2 Score               | 0.77     |
+| Explained Variance Score| 0.77     |
 
 For our best model, we will use mean squared error (MSE) as the evaluation metric. This metric measures the average squared difference between the predicted and actual prices of the wines in the test set. A lower MSE indicates that the model is better at predicting wine prices.
 
