@@ -27,15 +27,19 @@ The price of wines is positively correlated with the ratings the wine received i
 | R^2 Score               | 0.77     |
 | Explained Variance Score| 0.77     |
 
-For our best model, we will use mean squared error (MSE) as the evaluation metric. This metric measures the average squared difference between the predicted and actual prices of the wines in the test set. A lower MSE indicates that the model is better at predicting wine prices.
+For our best model, we will use mean squared error (MSE) as the evaluation metric. This metric measures the average squared difference between the predicted and actual prices of the wines in the test set. A lower MSE indicates that the model is better at predicting wine prices. This model
 
 ## Model Performance
-Our model is able to predict the price of a wine with an MSE of 15. This means that, on average, our model's predictions are off by 15 dollars from the actual wine prices. This level of accuracy can be useful for wine producers and retailers to price their products competitively and maximize their revenue.
+Our model is able to predict the price of a wine with an MSE of $140. This means that, on average, our model's predictions are off by 140 dollars from the actual wine prices. This level of accuracy can be useful for wine producers and retailers to price their products competitively and maximize their revenue when investing in higher selling wine and wineries. 
+
+## Model Limitations and Recommendations
+
+It is recommended this model be used to predict prices of wine that are known to have a higher price range. The model assumes linear relationship between the features and target data and cannot generalize unseen data. For modeling with new datasets it is recommended to recursively train the model using new data with higher unique values.
 
 ## Recommendations for Stakeholders
 Based on our model's performance and analytical findings, we have the following recommendations for our stakeholders:
 
- * Producers should focus on producing high-quality wines to command a higher price. Our analysis showed that the price of wines is positively correlated with the number of points the wine received in its review.
-* Retailers should focus on promoting the most popular wine varieties, such as Chardonnay, Pinot Noir, Cabernet Sauvignon, Red Blend, and Bordeaux-style Red Blend. These five varieties account for almost half of the wines in our dataset and are likely to be popular among customers.
+ * Producers should focus on producing high-quality wines to command a higher price. Our analysis showed that the price of wines is strongly correlated with the number of points the wine received in its review.
+* Retailers should focus on promoting the most popular wine varieties, such as Ribera Del Duero Red, Priorat Red, Rioja Red, and Toro Red. These four varieties account for almost half of the wines in our dataset and are likely to be popular among customers.
 
 
